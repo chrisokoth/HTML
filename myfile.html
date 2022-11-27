@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A whole course summary on html!">
+<title>HTML summary!</title>
+
+    </head>
+    <body>
+<h1>Chris' Website!</h1>
+<!--everything might not be true so dont mind of course-->
+<!--laying the structure of my page-->
+<header>
+   <!--anything put in the header of the website goes here--> 
+   <!--has more of navigation link and they all go into the nav tag below-->
+
+   <nav>
+
+   </nav>
+</header>
+<main>
+<!--lets take for example a blog post-->
+<article>
+    <!--put all the texts of your article and the browser will know there is an artcle in there -->
+    <section>
+        <!--all the codes for your section goes here i.e the first section-->
+        <!--you can have as many sections you want-->
+        <aside>
+            <!--mainly used for advertisement to show that the content yes belongs to the page but is not directly linked with the content of the website-->
+
+        </aside>
+        <!--CREATION OF LINKS-->
+        <a href="https://www.google.com">Google's Homepage</a>
+        <!--The link above jumps all the way from the website ang goes to Google instead of opening a new tab-->
+        <!--you can correct that by;-->
+        <a href="https://www.google.com" target="_blank">Google's Homepage</a>
+        <!--The attribute target="_blank" tells the browser to open the link in a new tab-->
+        <!--i can also link other webpages to this one using a relative url of attribute a like below-->
+        <a href="page2.html">Page 2</a><!--This one takes you to page 2 nof this web considered theyre in the same directory-->
+        <a href="myfile.html">Home</a><!--The link home will take me back to myfile.html when clicked-->
+        <!--LINKING TO A PAGE IN ANOTHER DIRECTORY EXAMPLE IN THE DOWNLOADS DIRECTORY-->
+        <a href="downloads/page3.html">Page 3</a>
+        <!--LINKING OF FILES OR PHOTOS-->
+        <a href="cat.jpg">cat</a>
+        <!--USE OF IMAGES-->
+        <img src="paste the link of the picture in the browser of from your PC" alt="A really beautiful cat"/>
+        <!--alt attribute shows what can be displayed incase the iamge is not found-->
+        <img width="100" height="200" scr="cat.jpg" alt="a cute cat"/>
+        <!--USING VIDEOS-->
+        <video src="location of the video" poster="thumb.jpg" autoplay controls width="300"></video>
+        <!--LOOP enables the video to start again when its done automatically-->
+        <!--embed videos directly by using the share and embed button on youtube to copy a youtube video then copy the html code in your code-->
+        <!--LISTS-->
+        <ul><!--Un ordered lists-->
+            <li>Oranges</li>
+            <li>apples</li>
+            <li>Mangoes</li>
+
+        </ul>
+        <ol><!--Ordered lists-->
+<li>
+    Oranges
+</li>
+<li>Apples</li>
+<li>Mangoes</li>
+        </ol>
+     <!--CREATING TABLES-->
+    <table>
+        <thead>
+        <caption><h2>List of Numbers</h2></caption>
+       <tr><!--Horizontal side-->
+        <th>num1</th>
+        <th>num2</th>
+        <th>num3</th>
+    
+       </tr> 
+       </thead>
+       <tbody>
+       <tr>
+        <td>four</td>
+        <td>five</td>
+        <td>six</td>
+       </tr>
+       </tbody>
+    </table>   
+    <!--DIVS AND SPANS-->
+     <!--Block elemnts take the entire width of the page
+    In-line elements takes as much space that they only need-->
+    <!--Divs are block elements
+    Spans are in-line elements-->
+    <!--INPUT AND FORMS-->
+    <input type="text" value="Enter your Username"/>
+    <input type="password" value="Enter your password"/><!--To input passowrds-->
+
+    <textarea rows="10" cols="30">
+        <!--Just a space to enter lots of texts-->
+        Enter a paragraph
+    </textarea>
+    <form>
+    <input type="date"/><!--input dates-->
+    <input type="file"/><!--input files-->
+    <input type="checkbox"/>
+    <input type="submit"/>
+    </form>
+    <!--check W3Schools.com for more types-->
+<!--FORMS-->
+<!--Used to store different input types like used above-->
+
+
+<!--iFrames-->
+<!--
+    its a html element able to display another website inside your webpage
+
+-->
+<iframe src="website you want to embedd">Sorry</iframe>
+
+
+    </section>
+</article>
+</main>
+<footer>
+
+</footer>
+
+    </body>
+</html>
